@@ -62,7 +62,7 @@ details { background: var(--card); border: 1px solid var(--line); border-radius:
 .cta-final { text-align: center; background: linear-gradient(180deg, #f7efe8, #f2e8de); }
 .cta-row.center { justify-content: center; }
 .footer { background: #23170f; color: #efe8e2; padding: 40px 0; }
-.footer-grid { display: grid; grid-template-columns: 1.2fr 1fr .8fr; gap: 20px; }
+.footer-grid { display: grid; grid-template-columns: 1.2fr 1fr; gap: 20px; }
 .footer ul { margin: 0; padding-left: 18px; }
 @media (max-width: 920px) {
   .hero-grid, .cards.three, .steps, .footer-grid { grid-template-columns: 1fr; }
