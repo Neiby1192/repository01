@@ -38,6 +38,17 @@ h1 { font-size: clamp(2rem, 4vw, 3.3rem); line-height: 1.2; margin: 0 0 16px; }
 .hero-tags { display: flex; flex-wrap: wrap; gap: 8px; margin-top: 16px; }
 .hero-tags span { background: #fff; border: 1px solid var(--line); color: var(--primary-dark); border-radius: 12px; font-size: .95rem; padding: 12px 14px; font-weight: 700; display: inline-flex; align-items: center; gap: 8px; }
 .mockup { display: grid; gap: 14px; }
+
+.fv-image {
+  width: 100%;
+  display: block;
+  border-radius: 18px;
+  border: 1px solid var(--line);
+  box-shadow: 0 8px 25px rgba(74,43,27,.08);
+  object-fit: cover;
+}
+.fv-image-main { min-height: 560px; }
+.fv-image-graph { min-height: 260px; }
 .phone-card, .stats-card { background: var(--card); border: 1px solid var(--line); border-radius: 18px; padding: 20px; box-shadow: 0 8px 25px rgba(74,43,27,.08); }
 .phone-card ul { margin: 14px 0 0; padding-left: 18px; }
 .hero-visual { display: grid; grid-template-columns: 1fr 280px; gap: 16px; align-items: center; }
