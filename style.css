@@ -98,7 +98,6 @@ h2 { font-size: clamp(1.5rem,3vw,2.2rem); margin: 0 0 22px; }
 .cards.three { grid-template-columns: repeat(3,1fr); }
 .cards.two { grid-template-columns: repeat(2,1fr); }
 .card, .review { background: var(--card); border: 1px solid var(--line); border-radius: 14px; padding: 18px; }
-#scenes .card { background: transparent; border: 0; border-radius: 0; }
 .card h3 { display: flex; align-items: center; gap: 10px; margin-top: 0; }
 .icon-badge {
   width: 32px;
@@ -193,21 +192,24 @@ details { background: var(--card); border: 1px solid var(--line); border-radius:
 .merged-right { display: none; }
 .feature-inline { margin-top: 32px; }
 .feature-inline h3 { font-size: clamp(1.8rem, 3vw, 2.5rem); margin-bottom: 18px; }
-.feature-inline .card { background: transparent; border: 0; border-radius: 0; padding: 0; }
-.feature-inline .card h4 { margin: 0 0 10px; display: flex; align-items: center; gap: 10px; font-size: 2rem; line-height: 1.3; }
-.feature-inline .card p { margin: 0; font-size: 1.28rem; line-height: 1.6; }
+
+.feature-inline .card h4 { margin: 0 0 10px; font-size: 1.25rem; line-height: 1.4; }
+.feature-inline .card p { margin: 0; font-size: 1rem; line-height: 1.7; }
 @media (max-width: 920px) {
   .merged-wrap { padding: 34px 20px 28px; }
   .merged-grid { grid-template-columns: 1fr; }
   .merged .pain-grid p { font-size: 1rem; }
   .merged .lead { font-size: 1.05rem; max-width: 100%; }
-  .feature-inline .card h4 { font-size: 1.4rem; }
+  .feature-inline .card h4 { font-size: 1.15rem; }
   .feature-inline .card p { font-size: 1rem; }
 }
 
 .ranking-feature { display: grid; grid-template-columns: 1fr 380px; gap: 20px; align-items: stretch; background: #fff; border: 1px solid var(--line); border-radius: 16px; padding: 20px; margin-bottom: 14px; }
 .ranking-text h3 { margin: 0 0 10px; }
 .ranking-photo { border: 1px dashed #d7c6b6; border-radius: 12px; display:flex; align-items:center; justify-content:center; color:#8a7a6d; background:#f7f3ef; min-height:180px; font-weight:700; }
+
+.scene-list { display: grid; gap: 16px; }
+.ranking-feature { margin-bottom: 0; }
 
 .merged-grid { grid-template-columns: 1fr; }
 
